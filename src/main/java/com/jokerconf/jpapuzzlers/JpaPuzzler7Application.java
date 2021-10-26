@@ -7,13 +7,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpaPuzzler5Application implements CommandLineRunner {
+public class JpaPuzzler7Application implements CommandLineRunner {
 
 	@Autowired
 	private OwnerRepository ownerRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(JpaPuzzler5Application.class, args);
+		SpringApplication.run(JpaPuzzler7Application.class, args);
 	}
 
 	@Override
