@@ -29,6 +29,9 @@ public class Owner {
     @JoinColumn(name = "phone_id")
     private Phone phone;
 
+//    @Column(name = "phone_number")
+//    private String phoneNumber;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
